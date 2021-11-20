@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Walcot';
+    src: local('Walcot Regular'), local('Walcot-Regular'),
+        url('./Walcot-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Walcot Round';
+    src: local('Walcot Round'), local('Walcot-Round'),
+        url('./Walcot-Round.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Walcot';
+    src: local('Walcot Bold'), local('Walcot-Bold'),
+        url('./Walcot-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

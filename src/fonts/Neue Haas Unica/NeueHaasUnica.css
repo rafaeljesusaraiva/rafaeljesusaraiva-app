@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('NeueHaasUnica-Bold'),
+        url('./NeueHaasUnica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica ExtBd';
+    src: local('NeueHaasUnica-ExtraBold'),
+        url('./NeueHaasUnica-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('NeueHaasUnica-BoldItalic'),
+        url('./NeueHaasUnica-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica ExtLt';
+    src: local('NeueHaasUnica-ExtLtIta'),
+        url('./NeueHaasUnica-ExtLtIta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica ExtBlk';
+    src: local('NeueHaasUnica-ExtraBlack'),
+        url('./NeueHaasUnica-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica ExtBlk';
+    src: local('NeueHaasUnica-ExtBlkIta'),
+        url('./NeueHaasUnica-ExtBlkIta.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('NeueHaasUnica-Black'),
+        url('./NeueHaasUnica-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('NeueHaasUnica-BoldItalic'),
+        url('./NeueHaasUnica-BoldItalic_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('NeueHaasUnica-Regular'),
+        url('./NeueHaasUnica-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica ExtBd';
+    src: local('NeueHaasUnica-ExtraBoldItalic'),
+        url('./NeueHaasUnica-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('NeueHaasUnica-ExtraLight'),
+        url('./NeueHaasUnica-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('NeueHaasUnica-Thin'),
+        url('./NeueHaasUnica-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Med';
+    src: local('NeueHaasUnica-MediumItalic'),
+        url('./NeueHaasUnica-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('NeueHaasUnica-Light'),
+        url('./NeueHaasUnica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Med';
+    src: local('NeueHaasUnica-Medium'),
+        url('./NeueHaasUnica-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('NeueHaasUnica-ThinItalic'),
+        url('./NeueHaasUnica-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('NeueHaasUnica-Italic'),
+        url('./NeueHaasUnica-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica ExtLt';
+    src: local('NeueHaasUnica-LightItalic'),
+        url('./NeueHaasUnica-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+

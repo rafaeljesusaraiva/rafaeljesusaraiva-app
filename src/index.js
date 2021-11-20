@@ -1,17 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider as StyletronProvider, DebugEngine } from "styletron-react";
+import { Client as Styletron } from "styletron-engine-atomic";
+import { ThemeProvider, StyleReset } from 'atomize';
+
+// Fonts used
+import './fonts/Neue Haas Unica/NeueHaasUnica.css';
+import './fonts/Walcot/Walcot.css'
+
+// Base CSS
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+const debug = process.env.NODE_ENV === "production" ? void 0 : new DebugEngine();
+const engine = new Styletron();
+const theme = {
+  colors: {
+    primary: 'tomato',
+    accent: 'yellow',
+  },
+};
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StyletronProvider value={engine} debug={debug} debugAfterHydration>
+      <ThemeProvider theme={theme}>
+        <StyleReset />
+        <div>Ola</div>
+      </ThemeProvider>
+    </StyletronProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
