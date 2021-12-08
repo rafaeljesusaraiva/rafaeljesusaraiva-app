@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Neue Haas Unica';
+  font-family: 'Neue Haas Unica' !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000000 !important;
